@@ -27,7 +27,7 @@ const TablaCategorias = ({ categorias, cargado }) => {
                     {categorias.map((categorias) => {
 
                         return (
-                            <tr key={categorias.categoria.id}>
+                            <tr key={categorias.id_categoria}>
                                 <td> {categorias.id_categoria}</td>
                                 <td> {categorias.nombre_categoria}</td>
                                 <td> {categorias.descripcion_categoria}</td>
