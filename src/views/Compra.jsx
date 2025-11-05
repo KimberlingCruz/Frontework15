@@ -14,7 +14,7 @@ const Compra = () => {
   const obtenerCompras = async () => {
     try {
 
-      const respuesta = await fetch("http://localhost:3000/api/compras");
+      const respuesta = await fetch("http://localhost:3001/api/compras");
 
       if (!respuesta.ok) {
         throw new Error("Error al obtener las compras");
