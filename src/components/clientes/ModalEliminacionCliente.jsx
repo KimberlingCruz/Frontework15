@@ -1,9 +1,9 @@
 import { Modal, Button } from "react-bootstrap";
 
-const ModalEliminacionProducto = ({
+const ModalEliminacionCliente = ({
     mostrar,
     setMostrar,
-    producto,
+    cliente,
     confirmarEliminacion,
 }) => {
     return (
@@ -14,7 +14,7 @@ const ModalEliminacionProducto = ({
             <Modal.Body>
                 <p>
                     ¿Estás seguro de que deseas eliminar los cliente{" "}
-                    <strong>"{producto?.nombre_producto}"</strong>?
+                    <strong>"{cliente?.primer_nombre}"</strong>?
                 </p>
                 <p className="text-muted small">
                     Esta acción no se puede deshacer.
@@ -32,4 +32,4 @@ const ModalEliminacionProducto = ({
     );
 };
 
-export default ModalEliminacionProducto;
+export default ModalEliminacionCliente;

@@ -26,5 +26,4 @@ const BotonOrden = ({ campo, children, orden, manejarOrden }) => {
     </th>
   );
 };
-
 export default BotonOrden;
